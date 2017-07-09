@@ -440,15 +440,4 @@ int main(void)
 			}
 		}
 	}
-	while (0)
-	{
-		nmea_decode_test();
-//		lon = 106.498636;
-//		lat = 29.629081;
-		Lcd1602_DisString(0x80, "LAT: %f", lat);
-		Lcd1602_DisString(0xC0, "LON: %f", lon);
-		DelayXms(800);
-//		NET_DEVICE_PWRK_ON;
-}
-
 }
